@@ -12,7 +12,6 @@ def LinearSearch(nameList,item): # Defines the type of search, LinearSearch
     if not found:
         print('Item not found') # Prints alert for not finding search query
 while True:
-    #nameList = [1, 2, 8, 13, 17, 19, 32, 42, 56, 47]
     nameList = ['Adam', 'Balint', 'Cindy', 'David', 'Ellie', 'Fred', 'Hugo'] # List for search query
     print(nameList) # Prints search list
     item = input('Enter an item: ') # Input for search query
