@@ -8,8 +8,8 @@ alpha = chars = string.ascii_letters + string.digits
 extended = string.ascii_letters + string.digits + string.punctuation + string.whitespace
 
 #password to check
-password = "123"
+password = "a b c"
 
 
 #call function and print return value
-print(guess_password(password,alpha))
+print(guess_password(password,extended))
